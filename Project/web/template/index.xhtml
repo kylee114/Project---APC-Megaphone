@@ -74,7 +74,8 @@
                                     onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
                                 <a href="" class="link-button-color"><span class="glyphicon glyphicon-lock"/> Log In</a>
                             </button>
-                            <button type="button" class="btn btn-danger navbar-btn button button-red">
+                            <button type="button" class="btn btn-danger navbar-btn button button-red" 
+									onclick="document.getElementById('id02').style.display='block'" style="width:auto;">
                                 <a href="" class="link-button-color"><span class="glyphicon glyphicon-pencil"/> Sign Up</a>
                             </button>
                         </li>
@@ -107,6 +108,46 @@
                             </div>
                         </form>
                     </div>
+					
+					<div id="id02" class="modal-signup">
+
+                        <form class="modal-signup animate" action="#">
+                            <div class="imgcontainer-modalsignup">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">X</span>
+                                <img src="images/logo.png" alt="Logo" class="avatar"/>
+                            </div>
+                            <div class="container">
+                                <label><b>Username</b></label><br/>
+                                <input type="text" placeholder="Enter Username" name="uname"/>
+                                <br />
+								
+								<label><b>First Name:</b></label><br/>
+                                <input type="text" placeholder="Enter First Name" name="fname"/>
+                                <br />
+								
+								<label><b>Last Name:</b></label><br/>
+                                <input type="text" placeholder="Enter Last Name" name="lname"/>
+                                <br />
+								
+								<label><b>Email Address</b></label><br/>
+                                <input type="text" placeholder="Enter Email" name="email"/>
+                                <br />
+
+                                <label><b>Password</b></label><br/>
+                                <input type="password" placeholder="Enter Password" name="psw" />
+
+                                <br /> <br />
+                                <button type="submit" class = "modal-button-submit button">Login</button>
+                                <br/>
+                                <input type="checkbox" checked="checked"/>Remember me
+                                <br />
+                            </div>
+                            <div class="container-modalsignup" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                                <span class="psw"><a href="#">Forgot password?</a></span>
+                            </div>
+                        </form>
+                    </div>
 
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
@@ -128,7 +169,8 @@
             <a href="#" >General Discussion</a>
         </div>
     </div>
-
+	
+	<link href="css/signupmodal.css" rel="stylesheet"/>
     <link href="css/loginmodal.css" rel="stylesheet"/>
 
 
