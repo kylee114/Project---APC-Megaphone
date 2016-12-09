@@ -1,6 +1,6 @@
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 70%;
+  width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -16,7 +16,7 @@ input[type=text], input[type=password] {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 70%;
+  width: 40%;
   outline: none;
   box-shadow: 0 9px #999;
 }
@@ -55,11 +55,12 @@ input[type=text], input[type=password] {
 
 img.avatar {
   width: 20%;
-  border-radius: 25%;
+  border-radikus: 25%;
 }
 
 .container-modal {
   padding: 16px;
+
 }
 
 span.psw {
@@ -88,7 +89,7 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 70%; /* Could be more or less, depending on screen size */
+  width: 40%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
